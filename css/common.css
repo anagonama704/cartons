@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+body {
+  background-color: #eee;
+}
+#wrap {
+  width: 100%;
+  height: auto;
+  background-color: aqua;
+  display: flex;
+}
+#header {
+  width: 30%;
+  height: 100vh;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+#header h1 {
+  display: block;
+  width: fit-content;
+  height: auto;
+  margin: 50px auto 0 auto;
+}
+#header h1 img {
+  vertical-align: bottom;
+}
+nav {
+  width: fit-content;
+  height: auto;
+  margin: 0 auto;
+}
+.front {
+  width: fit-content;
+  height: auto;
+  margin: 50px auto 0 auto;
+
+  border-bottom: 1px dashed #000;
+}
+.front li {
+  margin: 0 0 40px 0;
+}
+.front li a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+.front li a:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid #000;
+}
+.back {
+  margin: 40px 0 140px 0;
+}
+.back li {
+  margin: 0 0 40px 0;
+}
+.back li a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+.back li a:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid #000;
+}
+footer {
+  text-align: center;
+}
+
+#main {
+  width: 70%;
+  height: 3200px;
+  background-color: beige;
+  background-image: url(../images/back.png);
+  background-position: right;
+  background-size: contain;
+  right: 0;
+}
+#mainv {
+  width: 100%;
+  height: 700px;
+  margin: 6% 0 0 0;
+  background-image: url(../images/main.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#shopinfo {
+  width: 80%;
+  height: 550px;
+  margin: 10% auto 0 auto;
+  background-image: url(../images/back_info.png);
+  background-size: contain;
+}
+#shopinfo h2 {
+  font-size: 32px;
+  color: #7b5544;
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+#info_img {
+  width: 80%;
+  height: 470px;
+  margin: 40px auto;
+  background-image: url(../images/info_img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#info_img h3 {
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 600;
+  padding: 40px 0 0 50px;
+  color: #000;
+  /* -webkit-text-stroke: 1px #ffefd0; */
+}
+.info_p {
+  width: 91%;
+  height: auto;
+  margin: 50px auto 0 auto;
+}
+.p_bold {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
+}
+.p_normal {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: normal;
+}
+#quality {
+  width: 80%;
+  height: 550px;
+  margin: 12% auto 0 auto;
+  background-image: url(../images/quality.png);
+  background-size: contain;
+}
+#quality h3 {
+  padding: 10px 0 20px 0;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+#q_wrap {
+  display: flex;
+  justify-content: space-around;
+}
+#q_left {
+  width: 40%;
+  height: 300px;
+  margin: 5% auto 0 auto;
+  background-image: url(../images/miniq.png);
+  background-size: contain;
+  text-align: center;
+}
+
+#q_left h4 {
+  font-size: 18px;
+  padding: 10px 0 0 0;
+  font-weight: normal;
+  color: #000;
+}
+
+#q_right {
+  width: 40%;
+  height: 300px;
+  margin: 5% auto 0 auto;
+  background-image: url(../images/miniq.png);
+  background-size: contain;
+  text-align: center;
+}
+.tag {
+  display: block;
+  margin: -25px auto 0 auto;
+}
+#q_right h4 {
+  font-size: 18px;
+  padding: 10px 0 0 0;
+  font-weight: normal;
+  color: #000;
+}
+.qp {
+  width: 70%;
+  height: auto;
+  margin: 5px auto;
+  font-size: 15px;
+}
+.q_img {
+  margin: 10px 0 10px 0;
+}
+#info {
+  width: 80%;
+  height: 900px;
+  margin: 12% auto 0 auto;
+  background-image: url(../images/back_info.png);
+  background-size: contain;
+}
+#info h3 {
+  padding: 10px 0 0 0;
+  font-size: 32px;
+  color: #7b5544;
+  text-align: center;
+}
+.map {
+  width: fit-content;
+  height: auto;
+  margin: 50px auto 0 auto;
+}
+#address {
+  width: 500px;
+  height: 300px;
+  margin: 50px auto 0 auto;
+  background-image: url(../images/address.png);
+  background-size: contain;
+  text-align: center;
+}
+#address img {
+  width: auto;
+  height: auto;
+  margin: 40px 0 50px 0;
+}
+.adr_p {
+  width: fit-content;
+  height: auto;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+.adr_p p {
+  line-height: 22px;
+}
+
+/*  */
+#pins {
+  display: block;
+  margin: 0 auto 0 auto;
+  padding: 10px 0 0 0;
+}
+.shadows {
+  text-shadow: 1px 1px 0 #ffefd0, -1px -1px 0 #ffefd0, -1px 1px 0 #ffefd0,
+    1px -1px 0 #ffefd0, 0px 1px 0 #ffefd0, 0 -1px 0 #ffefd0, -1px 0 0 #ffefd0,
+    1px 0 0 #ffefd0;
+}
